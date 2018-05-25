@@ -1,2 +1,2 @@
-Uebung1_sbt/target/* linguist-vendored
-Uebung1_sbt/project/* linguist-vendored
+target/* linguist-vendored
+project/* linguist-vendored
