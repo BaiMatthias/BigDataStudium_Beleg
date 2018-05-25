@@ -1,0 +1,27 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mWordCountTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mtest.WordCountTest *** ABORTED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: C:\Users\Tiedmann\CloudStation\Git\Big%20Data\Beleg1\target\scala-2.12\test-classes\MobyDickC1.txt (Das System kann den angegebenen Pfad nicht finden)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.io.FileInputStream.open(FileInputStream.java:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.io.FileInputStream.<init>(FileInputStream.java:138)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:91)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:76)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:54)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at wordcount.Processing$.getData(Processing.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at test.WordCountTest.<init>(WordCountTest.scala:37)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mtest.SentimentTest *** ABORTED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: C:\Users\Tiedmann\CloudStation\Git\Big%20Data\Beleg1\target\scala-2.12\test-classes\AFINN-111.txt (Das System kann den angegebenen Pfad nicht finden)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.io.FileInputStream.open(FileInputStream.java:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.io.FileInputStream.<init>(FileInputStream.java:138)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:91)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:76)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:54)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at wordcount.Sentiments.getSentiments(Sentiments.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at wordcount.Sentiments.<init>(Sentiments.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at test.SentimentTest.<init>(SentimentTest.scala:17)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m

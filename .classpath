@@ -1,0 +1,45 @@
+<classpath>
+  <classpathentry kind="src" path="src/main/scala"/>
+  <classpathentry kind="src" path="src/main/resources"/>
+  <classpathentry kind="src" path="src/test/scala"/>
+  <classpathentry kind="src" path="src/test/java"/>
+  <classpathentry kind="src" path="src/test/resources"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
+  <classpathentry sourcepath="/home/hendrik/.ivy2/cache/junit/junit/srcs/junit-4.11-sources.jar" kind="lib" path="/home/hendrik/.ivy2/cache/junit/junit/jars/junit-4.11.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/hendrik/.ivy2/cache/junit/junit/docs/junit-4.11-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/hendrik/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.3-sources.jar" kind="lib" path="/home/hendrik/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/hendrik/.ivy2/cache/org.hamcrest/hamcrest-core/docs/hamcrest-core-1.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/hendrik/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar" kind="lib" path="/home/hendrik/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.5.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/hendrik/.ivy2/cache/org.scalactic/scalactic_2.12/docs/scalactic_2.12-3.0.5-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/hendrik/.ivy2/cache/org.jfree/jfreechart/srcs/jfreechart-1.0.19-sources.jar" kind="lib" path="/home/hendrik/.ivy2/cache/org.jfree/jfreechart/jars/jfreechart-1.0.19.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/hendrik/.ivy2/cache/org.jfree/jfreechart/docs/jfreechart-1.0.19-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/hendrik/.ivy2/cache/org.jfree/jcommon/srcs/jcommon-1.0.23-sources.jar" kind="lib" path="/home/hendrik/.ivy2/cache/org.jfree/jcommon/jars/jcommon-1.0.23.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/hendrik/.ivy2/cache/org.jfree/jcommon/docs/jcommon-1.0.23-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/hendrik/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar" kind="lib" path="/home/hendrik/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.5.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/hendrik/.ivy2/cache/org.scalatest/scalatest_2.12/docs/scalatest_2.12-3.0.5-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/hendrik/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.0.6-sources.jar" kind="lib" path="/home/hendrik/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/hendrik/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/docs/scala-xml_2.12-1.0.6-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
+</classpath>

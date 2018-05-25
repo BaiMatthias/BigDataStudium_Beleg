@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(test.WordCountTest, org.scalatest.tools.Framework$$anon$1@57874e71, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(test.SentimentTest, org.scalatest.tools.Framework$$anon$1@57874e71, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 401 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 0, aborted 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 2 SUITES ABORTED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mError during tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	test.WordCountTest[0m
+[0m[[0m[31merror[0m] [0m[0m	test.SentimentTest[0m
