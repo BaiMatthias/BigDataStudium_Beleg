@@ -1,21 +1,121 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\test\scala\test\SentimentTest.scala:22:12: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\SentimentTest.scala:22:12: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
 [0m[[0m[31merror[0m] [0m[0m     assert(sentAccident == -2)    [0m
 [0m[[0m[31merror[0m] [0m[0m           ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\test\scala\test\SentimentTest.scala:19:26: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\SentimentTest.scala:19:26: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
 [0m[[0m[31merror[0m] [0m[0m  test("Load Sentiments"){[0m
 [0m[[0m[31merror[0m] [0m[0m                         ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\test\scala\test\SentimentTest.scala:49:12: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\SentimentTest.scala:49:12: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
 [0m[[0m[31merror[0m] [0m[0m     assert(res===data)[0m
 [0m[[0m[31merror[0m] [0m[0m           ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\test\scala\test\SentimentTest.scala:25:42: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\SentimentTest.scala:25:42: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
 [0m[[0m[31merror[0m] [0m[0m  test("test getDocumentGroupedByCounts"){[0m
 [0m[[0m[31merror[0m] [0m[0m                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\test\scala\test\SentimentTest.scala:63:11: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\SentimentTest.scala:63:11: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
 [0m[[0m[31merror[0m] [0m[0m    assert(restest.forall(X=>(X._1<epsilon) && (X._2 < epsilon)===true))[0m
 [0m[[0m[31merror[0m] [0m[0m          ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\test\scala\test\SentimentTest.scala:53:33: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\SentimentTest.scala:53:33: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
 [0m[[0m[31merror[0m] [0m[0m  test("test analyzeSentiments"){[0m
 [0m[[0m[31merror[0m] [0m[0m                                ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\test\scala\test\WordCountTest.scala:41:12: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:41:12: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
 [0m[[0m[31merror[0m] [0m[0m     assert((3,"little or no money in my purse, and nothing particular to interest me on")===((d2)(3)))   [0m
 [0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:38:34: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m test("Load File from Resources"){[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:48:14: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert(r.length===9)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:49:14: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert(r.sorted===words_s1)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:44:33: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Test Word Extraction 1"){[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:57:14: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert(r.length===15)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:58:14: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert(r.sorted===words_s2)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:53:33: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Test Word Extraction 2"){[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:67:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result.length===24)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:68:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result.sorted===wordlist)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:62:35: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("get All Words Extraction"){[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:77:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result.length===19)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:78:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result.sorted===wordOccurences)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:72:22: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("count Words"){[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:87:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result.length===19)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:88:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result.sorted===wordOccurences)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:82:32: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("count Words MapReduce"){[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:97:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result.length===24)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:98:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result.sorted===wordsWithIndex)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:92:49: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("get All Words Extraction with Indizees"){[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:107:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result===inverseIndex)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:102:34: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("create Inverse Indizees"){[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:117:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result===List(2))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:111:33: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("test and Conjunction 1"){[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:127:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result===List(0,2))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:121:35: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m    test("test and Conjunction 2"){[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:137:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result===List())[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:131:33: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("test and Conjunction 3"){[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:147:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result===List(0,2))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:141:32: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("test or Conjunction 1"){[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:157:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result===List(2))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:151:32: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("test or Conjunction 2"){[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:167:15: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m       assert (result===List())[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mP:\CloudStation\Git\BigData_Beleg1\src\test\scala\test\WordCountTest.scala:161:32: could not find implicit value for parameter pos: org.scalactic.source.Position[0m
+[0m[[0m[31merror[0m] [0m[0m  test("test or Conjunction 3"){[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m40 errors found[0m

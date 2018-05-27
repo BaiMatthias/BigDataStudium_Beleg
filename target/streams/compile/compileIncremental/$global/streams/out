@@ -1,1 +1,123 @@
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar: could not find class java.awt.Window on the classpath.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating C:\Users\Tiedmann\.ivy2\cache\org.jfree\jcommon\jars\jcommon-1.0.23.jar: class org.jfree.ui.ApplicationFrame now provided by C:\Users\Alex\.ivy2\cache\org.jfree\jcommon\jars\jcommon-1.0.23.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating C:\Users\Tiedmann\.ivy2\cache\org.jfree\jfreechart\jars\jfreechart-1.0.19.jar: class org.jfree.chart.ChartPanel now provided by C:\Users\Alex\.ivy2\cache\org.jfree\jfreechart\jars\jfreechart-1.0.19.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating C:\Users\Tiedmann\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.5.jar: class scala.Boolean now provided by C:\Users\Alex\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\wordcount\Processing.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\wordcount\App.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\common\package.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\wordcount\Sentiments.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\mapreduce\BasicOperations.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(P:\CloudStation\Git\BigData_Beleg1\src\main\scala\wordcount\Processing.scala, P:\CloudStation\Git\BigData_Beleg1\src\main\scala\wordcount\App.scala, P:\CloudStation\Git\BigData_Beleg1\src\main\scala\mapreduce\BasicOperations.scala, P:\CloudStation\Git\BigData_Beleg1\src\main\scala\wordcount\Sentiments.scala, P:\CloudStation\Git\BigData_Beleg1\src\main\scala\common\package.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\target\scala-2.12\classes\common\package.class, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\target\scala-2.12\classes\wordcount\App.class, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\target\scala-2.12\classes\mapreduce\BasicOperations.class, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\target\scala-2.12\classes\wordcount\App$.class, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\target\scala-2.12\classes\wordcount\Sentiments.class, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\target\scala-2.12\classes\mapreduce\BasicOperations$.class, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\target\scala-2.12\classes\wordcount\Processing$.class, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\target\scala-2.12\classes\common\package$.class, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\target\scala-2.12\classes\wordcount\Processing.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar, C:\Users\Tiedmann\.ivy2\cache\org.jfree\jcommon\jars\jcommon-1.0.23.jar, C:\Users\Tiedmann\.ivy2\cache\org.jfree\jfreechart\jars\jfreechart-1.0.19.jar, C:\Users\Tiedmann\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.5.jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(wordcount.Sentiments, mapreduce.BasicOperations, wordcount.App, common.package, wordcount.Processing)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\wordcount\Processing.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\wordcount\App.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\common\package.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\wordcount\Sentiments.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\mapreduce\BasicOperations.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\wordcount\Processing.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\wordcount\App.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\common\package.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\wordcount\Sentiments.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\mapreduce\BasicOperations.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(wordcount.Sentiments, mapreduce.BasicOperations, wordcount.App, common.package, wordcount.Processing)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(P:\CloudStation\Git\BigData_Beleg1\src\main\scala\wordcount\Processing.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\wordcount\Processing.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\wordcount\App.scala, P:\CloudStation\Git\BigData_Beleg1\src\main\scala\wordcount\App.scala, P:\CloudStation\Git\BigData_Beleg1\src\main\scala\mapreduce\BasicOperations.scala, P:\CloudStation\Git\BigData_Beleg1\src\main\scala\wordcount\Sentiments.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\common\package.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\wordcount\Sentiments.scala, P:\CloudStation\Git\BigData_Beleg1\src\main\scala\common\package.scala, C:\Users\Tiedmann\CloudStation\Git\Big Data\Beleg1\src\main\scala\mapreduce\BasicOperations.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated package objects: Set(common.package)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 5 sources: invalidated sources (10) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 5 Scala sources to P:\CloudStation\Git\BigData_Beleg1\target\scala-2.12\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.0.5:compile for Scala 2.12.5[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.12' for Scala 2.12.5. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.12.5.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_99ae498d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_16beb625\jars\org.scala-sbt\compiler-interface\compiler-interface-1.0.5.jar;C:\Users\Alex\AppData\Local\Temp\sbt_16beb625\jars\org.scala-sbt\util-interface\util-interface-1.0.3.jar;C:\Users\Alex\AppData\Local\Temp\sbt_16beb625\srcs\org.scala-sbt\compiler-bridge_2.12\compiler-bridge_2.12-1.0.5-sources.jar;C:\Users\Alex\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.12.5.jar;C:\Users\Alex\.ivy2\cache\jline\jline\jars\jline-2.14.5.jar;C:\Users\Alex\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.6.jar;C:\Users\Alex\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\Command.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\CompilerInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\ConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\InteractiveConsoleFactory.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\InteractiveConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\AppData\Local\Temp\sbt_e6d3558f\xsbt\ScaladocInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 7.854s.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.0.5:compile for Scala 2.12.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 762d5ffa for Scala compiler version 2.12.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Alex\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	P:\CloudStation\Git\BigData_Beleg1\target\scala-2.12\classes;C:\Users\Alex\.ivy2\cache\junit\junit\jars\junit-4.11.jar;C:\Users\Alex\.ivy2\cache\org.hamcrest\hamcrest-core\jars\hamcrest-core-1.3.jar;C:\Users\Alex\.ivy2\cache\org.scalactic\scalactic_2.12\bundles\scalactic_2.12-3.0.5.jar;C:\Users\Alex\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.5.jar;C:\Users\Alex\.ivy2\cache\org.jfree\jfreechart\jars\jfreechart-1.0.19.jar;C:\Users\Alex\.ivy2\cache\org.jfree\jcommon\jars\jcommon-1.0.23.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 9.71385849 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from mapreduce.BasicOperations...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(mapreduce.BasicOperations)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(mapreduce.BasicOperations)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of wordcount.Processing: Set(UsedName(getClass,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(mapreduce.BasicOperations,ModifiedNames(changes = UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(hashCode,[Default]))) invalidates 2 classes due to The mapreduce.BasicOperations has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(hashCode,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(mapreduce.BasicOperations)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(wordcount.Processing)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from wordcount.Sentiments...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(wordcount.Sentiments)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(wordcount.Sentiments)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of wordcount.App. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(wordcount.Sentiments,ModifiedNames(changes = UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(hashCode,[Default]))) invalidates 1 classes due to The wordcount.Sentiments has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(hashCode,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(wordcount.Sentiments)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from wordcount.App...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(wordcount.App)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(wordcount.App)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(wordcount.App,ModifiedNames(changes = UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(hashCode,[Default]))) invalidates 1 classes due to The wordcount.App has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(hashCode,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(wordcount.App)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from wordcount.Processing...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(wordcount.Processing)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(wordcount.Processing)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of wordcount.Sentiments: Set(UsedName(getClass,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(wordcount.Processing,ModifiedNames(changes = UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(hashCode,[Default]))) invalidates 2 classes due to The wordcount.Processing has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(hashCode,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(wordcount.Processing)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(wordcount.Sentiments)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from common.package...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(common.package)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(common.package)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of wordcount.Processing: Set(UsedName(getClass,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(common.package,ModifiedNames(changes = UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(hashCode,[Default]))) invalidates 2 classes due to The common.package has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName(notifyAll,[Default]), UsedName(notify,[Default]), UsedName(hashCode,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(common.package)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(wordcount.Processing)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

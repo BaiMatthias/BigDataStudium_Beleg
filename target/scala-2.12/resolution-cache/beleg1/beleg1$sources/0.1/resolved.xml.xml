@@ -4,7 +4,7 @@
 		module="beleg1$sources"
 		revision="0.1"
 		status="integration"
-		publication="20180525110410"
+		publication="20180527124415"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
