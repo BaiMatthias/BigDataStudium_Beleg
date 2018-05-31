@@ -103,24 +103,17 @@ class Processing {
    }
 
    def andConjunction(words:List[String], invInd:Map[String,List[Int]]):List[Int]={
-     /* val lTemp =  words.foldLeft(List.empty[Int]){
+       val lTemp =  words.foldLeft(List.empty[Int]){
        (wordList, wordSearched) =>
-          wordList :::  invInd.getOrElse(wordSearched, List())
+          wordList :::  invInd.getOrElse(wordSearched, List()).distinct
         
-     }.foldLeft(List.empty[Int]){
-     	(l, ele) => if (l.contains(ele)) l else ele :: l
-     }.foldLeft(List.empty[Int]){
-      (l,ele) => if (
+     }
      
-     } 
-     lTemp.foldLeft(List.empty[Int]){
-     (l,ele) => if(lTemp.count(_ == ele) == words.length) ele :: l else l
-     } */
-     
-     List.empty[Int]
+     lTemp.filter( p => lTemp.count(_ == p) == words.length).distinct.reverse
    }
 
    def orConjunction(words:List[String], invInd:Map[String, List[Int]]):List[Int]={
+     
      words.foldLeft(List.empty[Int]){
        (wordList, wordSearched) =>
           wordList :::  invInd.getOrElse(wordSearched, List()) /* Bilde eine Liste mit allen Indizes, die gefunden wurden */
