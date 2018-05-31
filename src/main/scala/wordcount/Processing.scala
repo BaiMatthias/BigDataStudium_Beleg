@@ -80,7 +80,11 @@ class Processing {
   */
 
     def getAllWordsWithIndex(l:List[(Int,String)]):List[(Int,String)]= {
-      Map.empty[Int, String].toList
+      l.flatMap(indexAndWords /* Listenstruktur aufloesen */
+       => getWords(indexAndWords._2) /* Woerter splitten und Sonderzeichen entfernen */
+       .map((indexAndWords._1,_)) /* Woerter auf den Index mappen */
+     
+    )
     }
 
     /*
@@ -90,15 +94,40 @@ class Processing {
 
 
    def createInverseIndex(l:List[(Int,String)]):Map[String,List[Int]]= {
-     Map[String, List[Int]]().empty
+    l.foldLeft(Map.empty[String, List[Int]]){ /* Ganze Liste durchgehen */
+       (inverseMap, wordTupel) => 
+        inverseMap.updated(wordTupel._2, wordTupel._1 :: inverseMap.getOrElse(wordTupel._2, List())) /* Neue Map erstellen,
+        * String dient hier nun als Key und Values wird eine Liste von Indizes angehaengt
+        */
+     }
    }
 
    def andConjunction(words:List[String], invInd:Map[String,List[Int]]):List[Int]={
-     Map.empty[String, Int].valuesIterator.toList
+     /* val lTemp =  words.foldLeft(List.empty[Int]){
+       (wordList, wordSearched) =>
+          wordList :::  invInd.getOrElse(wordSearched, List())
+        
+     }.foldLeft(List.empty[Int]){
+     	(l, ele) => if (l.contains(ele)) l else ele :: l
+     }.foldLeft(List.empty[Int]){
+      (l,ele) => if (
+     
+     } 
+     lTemp.foldLeft(List.empty[Int]){
+     (l,ele) => if(lTemp.count(_ == ele) == words.length) ele :: l else l
+     } */
+     
+     List.empty[Int]
    }
 
    def orConjunction(words:List[String], invInd:Map[String, List[Int]]):List[Int]={
-     Map.empty[String, Int].valuesIterator.toList
+     words.foldLeft(List.empty[Int]){
+       (wordList, wordSearched) =>
+          wordList :::  invInd.getOrElse(wordSearched, List()) /* Bilde eine Liste mit allen Indizes, die gefunden wurden */
+        
+     }.foldLeft(List.empty[Int]){
+     	(l, ele) => if (l.contains(ele)) l else ele :: l /* Entferne doppelte Indizes */
+     	}
    }
 }
 
