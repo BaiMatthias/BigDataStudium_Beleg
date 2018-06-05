@@ -105,11 +105,15 @@ class Processing {
    def andConjunction(words:List[String], invInd:Map[String,List[Int]]):List[Int]={
        val lTemp =  words.foldLeft(List.empty[Int]){
        (wordList, wordSearched) =>
-          wordList :::  invInd.getOrElse(wordSearched, List()).distinct
+          wordList :::  invInd.getOrElse(wordSearched, List()).distinct /* Erstell eine Liste, mit allen Zeilen, in denen Woerter gefunden wurden*/
         
      }
      
-     lTemp.filter( p => lTemp.count(_ == p) == words.length).distinct.reverse
+     lTemp.filter( p => lTemp.count(_ == p) == words.length).distinct.reverse /* Erstellt eine Liste, bei der zuerst gezaehlt wird, wieviele Zahlen sie enthaelt.
+     																																					  Dann wird geprueft, wieviele Woerter in der Liste sind. Wenn die Zeilenzahl gleich der Woerterzahl ist,
+     																																					  heißt das, dass jedes Wort in der gleichen Zeile vorkommt. Danach noch reverse, damit Reihenfolge wieder 
+     																																					  korrekt*/
+     
    }
 
    def orConjunction(words:List[String], invInd:Map[String, List[Int]]):List[Int]={

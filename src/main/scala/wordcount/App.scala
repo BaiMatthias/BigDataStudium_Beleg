@@ -1,11 +1,13 @@
 package wordcount
 
+import scala.io.Source
+
 /**
  * @author hendrik
  */
 object App {
   
- 
+ val proc = new Processing
   /*
    * 
    *   Diese Anwendung fuehrt eine Sentiment-Analyse mit 
@@ -25,7 +27,12 @@ object App {
     val sentiAnalyse= new Sentiments("AFINN-112.txt")
     val book= sentiAnalyse.getDocumentGroupedByCounts("GoneWithTheWind.txt", 20000)
     val data= sentiAnalyse.analyzeSentiments(book)
-    sentiAnalyse.createGraph(data)
+    sentiAnalyse.createGraph(data) 
+    
+   
+    
+    
   }
-
+  
+  
 }
