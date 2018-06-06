@@ -117,7 +117,7 @@ class Processing {
 
      }
 
-     lTemp.filter( p => lTemp.count(_ == p) == words.length).distinct.reverse /* Erstellt eine Liste, bei der zuerst gezaehlt wird, wieviele Zahlen sie enthaelt.
+     lTemp.filter( p => lTemp.count(_ == p) == words.length).distinct /* Erstellt eine Liste, bei der zuerst gezaehlt wird, wieviele Zahlen sie enthaelt.
      																																					  Dann wird geprueft, wieviele Woerter in der Liste sind. Wenn die Zeilenzahl gleich der Woerterzahl ist,
      																																					  heißt das, dass jedes Wort in der gleichen Zeile vorkommt. Danach noch reverse, damit Reihenfolge wieder 
      																																					  korrekt*/
@@ -132,7 +132,7 @@ class Processing {
 
      }.foldLeft(List.empty[Int]){
      	(l, ele) => if (l.contains(ele)) l else ele :: l /* Entferne doppelte Indizes */
-     	}
+     	}.reverse
    }
 }
 
