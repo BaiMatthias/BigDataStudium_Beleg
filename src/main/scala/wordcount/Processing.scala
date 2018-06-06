@@ -68,7 +68,15 @@ class Processing {
       l:List[S]):R = l.map(mapFun).foldLeft(base)(redFun)
 
   def countTheWordsMR(l:List[String]):List[(String,Int)]= {
-     Map[String, Int]().empty.toList
+    mapReduce[String, (String, Int), Map[String, Int]](
+      word => (word, 1), // Map
+      (map, tuple) => map.get(tuple._1) match { //fuer jede Zahl im Tupel
+        case Some(ele) => map ++ Map(tuple._1 -> (ele + 1)) //wenn ein Element vorhanden ist nimm die map und fuege das element +1 plus der Anzahl im Tuple hinzu (hochzaehlen wie viele)
+        case None => map ++ Map(tuple._1 -> 1) // wenn nichts dann nimm die map und füge den tuple als 1 hinzu (wenn das wort nur einmal vorkommt)
+      }, //Funktion fuer mapReduce
+      Map[String, Int](), // base fuer MapReduce
+      l //Liste fuer MapReduce
+    ).toList //Ergebnis von MapReduce in Liste umwandeln
   }
 
 
@@ -83,7 +91,7 @@ class Processing {
       l.flatMap(indexAndWords /* Listenstruktur aufloesen */
        => getWords(indexAndWords._2) /* Woerter splitten und Sonderzeichen entfernen */
        .map((indexAndWords._1,_)) /* Woerter auf den Index mappen */
-     
+
     )
     }
 
@@ -95,7 +103,7 @@ class Processing {
 
    def createInverseIndex(l:List[(Int,String)]):Map[String,List[Int]]= {
     l.foldLeft(Map.empty[String, List[Int]]){ /* Ganze Liste durchgehen */
-       (inverseMap, wordTupel) => 
+       (inverseMap, wordTupel) =>
         inverseMap.updated(wordTupel._2, wordTupel._1 :: inverseMap.getOrElse(wordTupel._2, List())) /* Neue Map erstellen,
         * String dient hier nun als Key und Values wird eine Liste von Indizes angehaengt
         */
@@ -106,22 +114,22 @@ class Processing {
        val lTemp =  words.foldLeft(List.empty[Int]){
        (wordList, wordSearched) =>
           wordList :::  invInd.getOrElse(wordSearched, List()).distinct /* Erstell eine Liste, mit allen Zeilen, in denen Woerter gefunden wurden*/
-        
+
      }
-     
+
      lTemp.filter( p => lTemp.count(_ == p) == words.length).distinct.reverse /* Erstellt eine Liste, bei der zuerst gezaehlt wird, wieviele Zahlen sie enthaelt.
      																																					  Dann wird geprueft, wieviele Woerter in der Liste sind. Wenn die Zeilenzahl gleich der Woerterzahl ist,
      																																					  heißt das, dass jedes Wort in der gleichen Zeile vorkommt. Danach noch reverse, damit Reihenfolge wieder 
      																																					  korrekt*/
-     
+
    }
 
    def orConjunction(words:List[String], invInd:Map[String, List[Int]]):List[Int]={
-     
+
      words.foldLeft(List.empty[Int]){
        (wordList, wordSearched) =>
           wordList :::  invInd.getOrElse(wordSearched, List()) /* Bilde eine Liste mit allen Indizes, die gefunden wurden */
-        
+
      }.foldLeft(List.empty[Int]){
      	(l, ele) => if (l.contains(ele)) l else ele :: l /* Entferne doppelte Indizes */
      	}
