@@ -99,7 +99,7 @@ class Processing {
         inverseMap.updated(wordTupel._2, wordTupel._1 :: inverseMap.getOrElse(wordTupel._2, List())) /* Neue Map erstellen,
         * String dient hier nun als Key und Values wird eine Liste von Indizes angehaengt
         */
-     }
+     }.mapValues(l => l.reverse)
    }
 
    def andConjunction(words:List[String], invInd:Map[String,List[Int]]):List[Int]={
