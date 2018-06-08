@@ -28,34 +28,31 @@ class Sentiments (sentiFile:String){
   */
 
   def getDocumentGroupedByCounts(filename:String, wordCount:Int):List[(Int,List[String])]= {
-    val lWords = proc.getWords(Source.fromFile(filename).getLines.mkString("\n"))
-    
-   lWords.grouped(wordCount).zipWithIndex.map{ /* gruppiere Woerter anhand des wordCounts und haenge den Index dran  */
-      l => (l._2, l._1)
+    val wMap = Processing.getData(filename)
+
+    wMap.flatMap(a => proc.getWords(a._2 )).grouped(wordCount).zipWithIndex.map{ // Erstelle eine neue Liste und gruppiere diese anhand
+      // vorgegebenem WordCount und Index anhaengen
+      l => (l._2+1, l._1) // Attribute noch umdrehen
     }.toList
   }
   
                                                           // Abschnitt, Sentimentwert, Relative Anzahl von genutzten Woertern
   def analyzeSentiments(l:List[(Int,List[String])]):List[(Int, Double, Double)]= {
-   
-   val mSenti = Processing.getData("AFINN-111.txt").map{ line => // Datei auslesen
-   val number = ("[-]?[0-9]".r.findFirstIn(line._2)).get // Nummer im String finden per Regex, Das - ist optional, danach kommt Nummer von 0-9, 0-5 reicht eigentlich auch
-   val indexOfNumber = line._2.indexOf(number) // Der Index der Nummer wird gesucht
-   val word = (line._2.subSequence(0, indexOfNumber -1)).toString().trim() // Neuen String erzeugen, der von Index 0 bis zum Index VOR der Nummer geht, dann noch 
-                                                                           //Trim(), falls Leerzeichen drin sind
-    (word, number.toInt)
-      }.toMap
-    
     l.foldLeft(List.empty[(Int,Double,Double)]){ // Erzeuge das Tripel - so geschrieben?
-      (nList, tTuple) =>  (tTuple._1, tTuple._2.map(mSenti.getOrElse(_,0)).sum.toDouble,   (tTuple._2.filter(p => mSenti.get(p).map{
-        ele => ele >= -5 && ele <= 5 // Erstes Element ist der Absatz, zweites Element ist das Auslesen der Map mit den Woertern, um Sentimentwert zu bekommen
-                                     // Wenn das Wort nicht in der Map ist, einfach +0 addieren, aendert nix am Wert
-                                     // Drittes Element zaehlt, wieviele Woerter in der Map gefunden wurden und teilt das durch die Gesamtzahl der Woerter aus der Quelle
-      }.getOrElse(false)).length / tTuple._2.length).toDouble) :: nList
-    }
-    
-   
+      (nList, tTuple) =>  (tTuple._1, (tTuple._2.map(sentiments.getOrElse(_,0)).sum.toDouble / tTuple._2.filter(f => sentiments.get(f).map{
+        ele => ele >= -5 && ele <= 5
+      }.getOrElse(false)).length),
+
+
+        (tTuple._2.filter(p => sentiments.get(p).map{
+          ele => ele >= -5 && ele <= 5
+        }.getOrElse(false)).length.toDouble / tTuple._2.length)) :: nList
+    }.reverse
+    // Erstes Element ist der Absatz, zweites Element ist das Auslesen der Map mit den Woertern, um Sentimentwert zu bekommen
+    // Wenn das Wort nicht in der Map ist, einfach +0 addieren, aendert nix am Wert
+    // Drittes Element zaehlt, wieviele Woerter in der Map gefunden wurden und teilt das durch die Gesamtzahl der Woerter aus der Quelle
   }
+
   
   /**********************************************************************************************
    *
